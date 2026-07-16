@@ -26,7 +26,7 @@ export default function Home() {
           <div className="hero-content">
             <div className="hero-badge">
               <span className="hero-badge-dot" />
-              Available for Work
+              Accepting New Projects
             </div>
 
             <h1 className="hero-name">Suriya B</h1>
