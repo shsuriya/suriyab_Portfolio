@@ -1,6 +1,6 @@
 import ContactForm from "@/components/ContactForm";
 import CertificationsCard from "@/components/CertificationsCard";
-import { Code2, Palette, Database, Wrench, Activity, Building2, UtensilsCrossed, GraduationCap } from "lucide-react";
+import { Code2, Palette, Database, Wrench, Activity, Building2, UtensilsCrossed, GraduationCap, Rocket, Sparkles, Zap } from "lucide-react";
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
           <div className="hero-content">
             <div className="hero-badge">
               <span className="hero-badge-dot" />
-              Accepting New Projects
+              Open to Opportunities
             </div>
 
             <h1 className="hero-name">Suriya B</h1>
@@ -255,7 +255,46 @@ export default function Home() {
             <h2 className="section-title">Get in Touch</h2>
             <div className="section-line" />
           </div>
-          <ContactForm />
+          <div className="contact-grid">
+            <div className="contact-info">
+              <h3 className="contact-info-title">What I Bring to the Table</h3>
+              <p className="contact-info-desc">
+                I combine technical expertise with a keen eye for design to deliver web applications that perform exceptionally and look beautiful.
+              </p>
+              
+              <div className="contact-features">
+                <div className="contact-feature">
+                  <div className="contact-feature-icon cyan">
+                    <Rocket size={24} strokeWidth={1.8} />
+                  </div>
+                  <div>
+                    <h4>Fast & Scalable</h4>
+                    <p>Next.js & React for lightning-fast web apps.</p>
+                  </div>
+                </div>
+                <div className="contact-feature">
+                  <div className="contact-feature-icon purple">
+                    <Sparkles size={24} strokeWidth={1.8} />
+                  </div>
+                  <div>
+                    <h4>Premium UI/UX</h4>
+                    <p>Responsive, glassmorphic designs that wow your users.</p>
+                  </div>
+                </div>
+                <div className="contact-feature">
+                  <div className="contact-feature-icon pink">
+                    <Zap size={24} strokeWidth={1.8} />
+                  </div>
+                  <div>
+                    <h4>Quick Delivery</h4>
+                    <p>Quality code delivered strictly on time.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <ContactForm />
+          </div>
         </div>
       </section>
 
