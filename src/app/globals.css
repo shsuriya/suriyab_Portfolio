@@ -1252,6 +1252,14 @@ textarea.form-input {
   .hero-name {
     font-size: clamp(2.5rem, 9vw, 4rem);
   }
+
+  .cert-modal-overlay {
+    padding: 1rem;
+  }
+
+  .cert-modal {
+    height: 90vh;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1275,5 +1283,25 @@ textarea.form-input {
 
   .section-title {
     font-size: 1.6rem;
+  }
+
+  .cert-modal-overlay {
+    padding: 0.5rem;
+  }
+
+  .cert-modal-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .cert-modal-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .cert-modal-btn {
+    padding: 6px 10px;
+    font-size: 0.8rem;
   }
 }
