@@ -15,6 +15,7 @@
   --glass-hover: rgba(255, 255, 255, 0.08);
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-border-hover: rgba(255, 255, 255, 0.22);
+  --grid-color: rgba(255, 255, 255, 0.05);
 }
 
 /* ========================================
@@ -38,6 +39,7 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1,
@@ -193,6 +195,8 @@ a {
   align-items: center;
   justify-content: center;
   animation: fadeInLeft 0.9s ease both;
+  width: max-content;
+  margin: 0 auto;
 }
 
 .hero-image-glow {
@@ -1317,6 +1321,10 @@ textarea.form-input {
 @media (max-width: 768px) {
   .mobile-menu-btn {
     display: block;
+  }
+
+  .hero-image-glow {
+    display: none;
   }
 
   .navbar-links {
