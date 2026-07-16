@@ -12,18 +12,18 @@ export async function POST(request: Request) {
     // You will need to set these environment variables in your .env.local file
     // EMAIL_USER=your_email@gmail.com
     // EMAIL_PASS=your_gmail_app_password
-    
+
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.EMAIL_USER || "suiryab2105@gmail.com",
-        pass: process.env.EMAIL_PASS || "", 
+        user: process.env.EMAIL_USER || "suriyab2105@gmail.com",
+        pass: process.env.EMAIL_PASS || "",
       },
     });
 
     const mailOptions = {
-      from: process.env.EMAIL_USER || "suiryab2105@gmail.com",
-      to: "suiryab2105@gmail.com", // Your email where you want to receive messages
+      from: process.env.EMAIL_USER || "suriyab2105@gmail.com",
+      to: "suriyab2105@gmail.com", // Your email where you want to receive messages
       subject: `New Portfolio Message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
       html: `

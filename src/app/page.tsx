@@ -75,7 +75,7 @@ export default function Home() {
       <section className="section" id="skills">
         <div className="container">
           <div className="section-header">
-            <span className="section-number">01</span>
+            <span className="section-number">*</span>
             <h2 className="section-title">Skills</h2>
             <div className="section-line" />
           </div>
@@ -131,7 +131,7 @@ export default function Home() {
       <section className="section" id="experience">
         <div className="container">
           <div className="section-header">
-            <span className="section-number">02</span>
+            <span className="section-number">*</span>
             <h2 className="section-title">Experience</h2>
             <div className="section-line" />
           </div>
@@ -226,7 +226,7 @@ export default function Home() {
       <section className="section" id="education">
         <div className="container">
           <div className="section-header">
-            <span className="section-number">03</span>
+            <span className="section-number">*</span>
             <h2 className="section-title">Education & Certifications</h2>
             <div className="section-line" />
           </div>
@@ -251,7 +251,7 @@ export default function Home() {
       <section className="section" id="contact">
         <div className="container">
           <div className="section-header">
-            <span className="section-number">04</span>
+            <span className="section-number">*</span>
             <h2 className="section-title">Get in Touch</h2>
             <div className="section-line" />
           </div>
@@ -262,7 +262,7 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="footer">
         <p>
-          Built with ❤️ by{" "}
+          Built with  by{" "}
           <span className="footer-highlight">Suriya B</span> · React Front-End
           Developer · Chennai, India
         </p>

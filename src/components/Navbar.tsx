@@ -3,7 +3,7 @@
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <span className="navbar-logo">Suriya B</span>
+      <a href="#" className="navbar-logo">Suriya B</a>
       <ul className="navbar-links">
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
