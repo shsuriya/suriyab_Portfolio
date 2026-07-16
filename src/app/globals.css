@@ -140,7 +140,7 @@ a {
 }
 
 .mobile-menu-btn {
-  display: none;
+  display: none !important;
   background: transparent;
   border: none;
   color: var(--text);
@@ -1320,7 +1320,7 @@ textarea.form-input {
 
 @media (max-width: 768px) {
   .mobile-menu-btn {
-    display: block;
+    display: block !important;
   }
 
   .hero-image-glow {
