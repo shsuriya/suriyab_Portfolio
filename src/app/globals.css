@@ -137,6 +137,15 @@ a {
   transform: scale(1.03);
 }
 
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  z-index: 60;
+}
+
 /* ========================================
    LAYOUT
    ======================================== */
@@ -1306,6 +1315,37 @@ textarea.form-input {
 }
 
 @media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 85px;
+    left: 5%;
+    width: 90%;
+    background: rgba(15, 15, 15, 0.95);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 2rem;
+    gap: 1.5rem;
+    transform: translateY(-20px) scale(0.95);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  }
+
+  .navbar-links.active {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+
   .skills-grid {
     grid-template-columns: 1fr;
   }
@@ -1349,10 +1389,6 @@ textarea.form-input {
 }
 
 @media (max-width: 500px) {
-  .navbar-links {
-    display: none;
-  }
-
   .navbar {
     gap: 16px;
   }
