@@ -1,0 +1,55 @@
+SURIYA B
+React Front-End Developer
+Chennai, India | Email: suriyab2105@gmail.com | Mobile: 9944001868
+Summary
+● Front-End Developer with 6+ years of experience in designing and developing scalable,
+high-performance enterprise web applications using React.js, Next.js, JavaScript, TypeScript,
+Redux, HTML5, CSS3, and modern frontend technologies.
+● Extensive experience in building reusable UI components, responsive user interfaces,
+enterprise portals, and integrating REST APIs, Firebase Authentication, Firestore, Stripe, and
+Razorpay to deliver secure and high-performance applications.
+● Experienced in application performance optimization, production support, deployment, bug
+fixing, role-based access control, and Agile software development. Passionate about
+developing clean, maintainable, scalable, and user-centric frontend solutions while
+collaborating with cross-functional teams.
+Skills
+Frontend Development: React.js, Next.js, Redux, JavaScript (ES6+), TypeScript, HTML5,
+CSS3
+UI Frameworks: Ant Design, Bootstrap, Tailwind CSS, Responsive Web Design, Figma
+Database & Backend Services: Firebase, Firestore
+Development Tools: Git, GitHub, VS Code, REST APIs, Jira, Huly
+Payment Integration: Stripe, Razorpay
+Experience
+Trident Solution Pvt Ltd
+Frontend Developer | May 2023 – Present
+● Developed and maintained enterprise-grade web applications using React.js, Next.js,
+TypeScript, JavaScript, HTML5, CSS3, and REST APIs.
+● Designed and implemented reusable UI components, responsive interfaces, and
+role-based dashboards using React.js, Ant Design, and modern frontend practices.
+● Integrated Firebase Authentication, Firestore, Stripe, Razorpay, and REST APIs to
+support secure authentication, payment processing, and real-time business workflows.
+● Built customer booking systems, business management modules, admin portals, and food
+ordering applications for enterprise clients.
+● Optimized application performance, resolved production issues, and supported staging
+and production deployments to ensure platform stability.
+● Collaborated with cross-functional teams in Agile environments to deliver scalable,
+maintainable, and high-quality web applications.
+Aroganam Technologies Pvt Ltd
+Junior Frontend Developer | March 2020 – Feb 2023
+● Developed responsive web applications using React.js, JavaScript, HTML5, CSS3,
+Bootstrap, and REST APIs based on business requirements and UI/UX designs.
+● Converted design mockups into pixel-perfect, responsive user interfaces while ensuring
+cross-browser compatibility and consistent user experience.
+● Built reusable UI components, integrated REST APIs, and collaborated with backend
+developers to implement business functionalities.
+● Participated in bug fixing, UI enhancements, performance optimization, testing,
+deployment support, and production issue resolution.
+● Worked with Git for version control and actively contributed to Agile sprint planning,
+daily stand-up meetings, and feature delivery.
+● Contributed to the development of role-based dashboards and business modules by
+delivering clean, maintainable, and scalable frontend code.
+Education
+Bachelor of Engineering – Mechanical Engineering
+Oxford Engineering College, Trichy
+Certifications
+• Claude 101 – Anthropic

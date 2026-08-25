@@ -37,7 +37,7 @@ export default function Home() {
             </p>
 
             <p className="hero-desc">
-              3+ years building scalable web applications with React.js, Next.js, and
+              6+ years building scalable web applications with React.js, Next.js, and
               Redux. Passionate about exceptional user experiences and clean
               architecture. Based in Chennai, India.
             </p>
@@ -120,7 +120,7 @@ export default function Home() {
               </div>
               <h3 className="skill-card-title blue">Tools &amp; Integration</h3>
               <p className="skill-card-text">
-                Git, GitHub, VS Code, REST APIs, Jira, Stripe, Razorpay
+                Git, GitHub, VS Code, REST APIs, Jira, Huly, Stripe, Razorpay
               </p>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function Home() {
           <div className="exp-card">
             <div className="exp-head">
               <div>
-                <h3 className="exp-role">Software Engineer</h3>
+                <h3 className="exp-role">Frontend Developer</h3>
                 <p className="exp-company">Trident Solution Pvt Ltd</p>
               </div>
               <span className="exp-period">
@@ -219,6 +219,68 @@ export default function Home() {
 
             </div>
           </div>
+
+          {/* Aroganam Technologies */}
+          <div className="exp-card" style={{ marginTop: "2rem" }}>
+            <div className="exp-head">
+              <div>
+                <h3 className="exp-role">Junior Frontend Developer</h3>
+                <p className="exp-company">Aroganam Technologies Pvt Ltd</p>
+              </div>
+              <span className="exp-period">
+                <span className="exp-period-dot" />
+                Mar 2020 – Feb 2023
+              </span>
+            </div>
+
+            <div className="projects-list">
+
+              {/* Project 1 */}
+              <div className="project-item">
+                <div className="project-header">
+                  <div className="project-icon-wrap purple">
+                    <Code2 size={18} strokeWidth={2} />
+                  </div>
+                  <h4 className="project-item-name">
+                    Responsive Web Applications
+                  </h4>
+                </div>
+                <ul className="project-bullets">
+                  <li>Developed responsive web applications using React.js, JavaScript, HTML5, CSS3, Bootstrap, and REST APIs based on business requirements and UI/UX designs.</li>
+                  <li>Converted design mockups into pixel-perfect, responsive user interfaces ensuring cross-browser compatibility and consistent user experience.</li>
+                  <li>Built reusable UI components and integrated REST APIs in collaboration with backend developers.</li>
+                </ul>
+                <div className="project-tags">
+                  {["React.js", "JavaScript", "HTML5", "CSS3", "Bootstrap", "REST APIs"].map(t => (
+                    <span key={t} className="project-tag">{t}</span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Project 2 */}
+              <div className="project-item">
+                <div className="project-header">
+                  <div className="project-icon-wrap cyan">
+                    <Wrench size={18} strokeWidth={2} />
+                  </div>
+                  <h4 className="project-item-name">
+                    Role-Based Dashboards & Business Modules
+                  </h4>
+                </div>
+                <ul className="project-bullets">
+                  <li>Contributed to the development of role-based dashboards and business modules with clean, maintainable, and scalable frontend code.</li>
+                  <li>Participated in bug fixing, UI enhancements, performance optimization, testing, deployment support, and production issue resolution.</li>
+                  <li>Worked with Git for version control and actively contributed to Agile sprint planning and feature delivery.</li>
+                </ul>
+                <div className="project-tags">
+                  {["React.js", "Redux", "Git", "Jira"].map(t => (
+                    <span key={t} className="project-tag">{t}</span>
+                  ))}
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
       </section>
 
@@ -261,7 +323,7 @@ export default function Home() {
               <p className="contact-info-desc">
                 I combine technical expertise with a keen eye for design to deliver web applications that perform exceptionally and look beautiful.
               </p>
-              
+
               <div className="contact-features">
                 <div className="contact-feature">
                   <div className="contact-feature-icon cyan">
@@ -292,7 +354,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
+
             <ContactForm />
           </div>
         </div>

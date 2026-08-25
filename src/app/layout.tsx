@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 export const metadata: Metadata = {
   title: "Suriya B | React Front-End Developer",
   description:
-    "Portfolio of Suriya B, a React Front-End Developer with 3+ years of experience building scalable web applications.",
+    "Portfolio of Suriya B, a React Front-End Developer with 6+ years of experience building scalable web applications.",
 };
 
 export default function RootLayout({
