@@ -9,7 +9,7 @@ const certs = [
     id: "claude-101",
     name: "Claude 101",
     issuer: "Anthropic",
-    pdf: "/claude-101-certificate.pdf",
+    pdf: "/Suriya_Claude101_Certificate.pdf",
   },
 ];
 

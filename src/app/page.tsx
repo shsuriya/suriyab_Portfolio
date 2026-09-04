@@ -24,10 +24,10 @@ export default function Home() {
 
           {/* Right — Hero Text */}
           <div className="hero-content">
-            <div className="hero-badge">
+            {/* <div className="hero-badge">
               <span className="hero-badge-dot" />
               Open to Opportunities
-            </div>
+            </div> */}
 
             <h1 className="hero-name">Suriya B</h1>
 
@@ -363,7 +363,7 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="footer">
         <p>
-          Built with  by{" "}
+          Built  by{" "}
           <span className="footer-highlight">Suriya B</span> · React Front-End
           Developer · Chennai, India
         </p>
