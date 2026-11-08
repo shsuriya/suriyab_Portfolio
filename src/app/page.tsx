@@ -17,7 +17,7 @@ export default function Home() {
               <div className="hero-image-spinner" />
               {/* Image — completely static */}
               <div className="hero-image-inner">
-                <img src="/profile.png" alt="Suriya B — React Front-End Developer" />
+                <img src="/DSC_0076-100kb.jpg" alt="Suriya B — React Front-End Developer" />
               </div>
             </div>
           </div>
