@@ -144,7 +144,7 @@ export default function Home() {
               </div>
               <span className="exp-period">
                 <span className="exp-period-dot" />
-                May 2023 – Present
+                May 2023 – Aug-2026
               </span>
             </div>
 
